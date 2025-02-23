@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="material_dynamic_neutral20">#CCCCCC</color> <!-- Replace with your preferred color -->
+    <color name="design_default_color_background">#FFFFFF</color> <!-- Or use @color/white -->
+
+</resources>
