@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingStart="8dp"
-    android:paddingEnd="8dp"
+    android:layout_height="wrap_content"
     android:background="@drawable/todo_blur"
-    >
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp">
 
     <TextView
         android:id="@+id/tvTodoTitle"
-        android:layout_width="329dp"
-        android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral20"
+        android:layout_width="328dp"
+        android:layout_height="52dp"
+        android:background="@color/black"
         android:text="Example"
         android:textColor="@color/white"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cbDone"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.103" />
 
     <CheckBox
         android:id="@+id/cbDone"
